@@ -42,7 +42,7 @@ const ImagePicker = ({ label, name }) => {
         <input
           type="file"
           id={name}
-          accept="image/png, image/jpeg"
+          accept="image/png, image/jpg"
           name={name}
           ref={imageInput}
           className={classes.input}
